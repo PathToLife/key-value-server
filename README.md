@@ -3,14 +3,14 @@ A simple http key value server built using nodejs
 
 ### POST /store/bob
 ```
-cookies
+somerandomvalue in the body of the post request
 ```
 
 ### GET /store/bob
 ```json
 {
   "key": "bob",
-  "value": "cookies",
+  "value": "some-random-value in the body of the post request",
   "accessCount": 25,
   "creationDate": "2022-08-06T05:05:10.767Z",
   "editDate": "2022-08-06T05:05:33.830Z"
