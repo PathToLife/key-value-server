@@ -3,7 +3,7 @@ A simple http key value server built using nodejs
 
 ### POST /store/bob
 ```js
-somerandomvalue // in the body of the post request
+some-random-value // in the body of the post request
 ```
 
 ### GET /store/bob
