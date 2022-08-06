@@ -6,8 +6,7 @@
   "scripts": {
     "build": "tsc -noEmit && rm -rf dist && esbuild src/main.ts --bundle --platform=node --outfile=dist/main.js",
     "dockerbuild": "docker buildx build --platform linux/amd64,linux/arm64,linux/arm/v7 -t pathtolife/key-value-server --load .",
-    "start": "node ",
-    "serve": "ts-node src/main.ts",
+    "start": "ts-node src/main.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",

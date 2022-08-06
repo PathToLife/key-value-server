@@ -22,6 +22,10 @@ cookies
 
 ## Getting started
 
-A docker image is available
+A docker image is available (random code online is a little safer in a no privilege docker container)
 
 `docker run --rm -p 3000:3000 pathtolife/key-value-server`
+
+Or we can alternatively use node 
+
+`npm run start`
