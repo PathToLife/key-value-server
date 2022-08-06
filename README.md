@@ -3,7 +3,6 @@ A simple http key value server built using nodejs
 
 ### POST /store/bob
 ```
-
 cookies
 ```
 
