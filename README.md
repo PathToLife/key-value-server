@@ -2,15 +2,15 @@
 A simple http key value server built using nodejs
 
 ### POST /store/bob
-```
-somerandomvalue in the body of the post request
+```js
+somerandomvalue // in the body of the post request
 ```
 
 ### GET /store/bob
 ```json
 {
   "key": "bob",
-  "value": "some-random-value in the body of the post request",
+  "value": "some-random-value",
   "accessCount": 25,
   "creationDate": "2022-08-06T05:05:10.767Z",
   "editDate": "2022-08-06T05:05:33.830Z"
