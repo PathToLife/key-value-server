@@ -2,11 +2,11 @@ name: docker-publish
 
 on:
   workflow_dispatch:
-  push:
-    branches:
-     - main
-    paths-ignore:
-      - '**/README.md'
+#  push:
+#    branches:
+#     - main
+#    paths-ignore:
+#      - '**/README.md'
 
 jobs:
   main:
